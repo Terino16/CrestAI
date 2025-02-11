@@ -19,7 +19,7 @@ export default function Hero() {
       <span className="bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text text-transparent text-bottom">Tech</span>
       <br />
     </h1>
-    <p className="text-zinc-700  dark:text-zinc-400 text-md text-center leading-10 max-w-2xl animate-slidein [--slidein-delay:700ms]">
+    <p className="text-zinc-700  dark:text-zinc-400 font-medium text-lg antialiased text-center leading-10 max-w-2xl animate-slidein [--slidein-delay:700ms]">
       Hi, I’m Anubhav  a passionate Software Engineer specializing in building dynamic, user-focused web applications. With a strong foundation in Next.js, React, and Tailwind CSS, I create seamless, scalable solutions that blend functionality with modern design. Whether it’s crafting intuitive interfaces or developing robust backend systems, I’m driven by a commitment to clean code and innovative problem-solving. Let’s build something amazing together.
     </p>
 
@@ -34,8 +34,9 @@ export default function Hero() {
     </div>
     </Link>
 
-    <div className="absolute bottom-0 right-0 rounded-full bg-gradient-to-r from-red-500 to-yellow-500 w-[15vh] h-[15vh] blur-3xl"></div>
-    <div className="absolute bottom-0 left-0 rounded-full bg-gradient-to-r from-red-500 to-yellow-500 w-[15vh] h-[15vh] blur-3xl"></div>
+    {/* <div className="absolute bottom-0 right-0 rounded-full bg-gradient-to-r from-red-500 to-yellow-500 w-[15vh] h-[15vh] blur-3xl"></div>
+    <div className="absolute bottom-0 left-0 rounded-full bg-gradient-to-r from-red-500 to-yellow-500 w-[15vh] h-[15vh] blur-3xl"></div> */}
+    <div className="absolute bottom-0 bg-gradient-to-r from-red-500 to-yellow-500 w-[100vw] rounded-full h-[10px] blur-2xl"></div>
     </div>
   </div>
   );
