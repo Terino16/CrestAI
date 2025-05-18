@@ -1,4 +1,4 @@
-import Navbar from "@/components/marketing/Navbar";
+
 
 export default function MarketingLayout({
   children,
@@ -7,7 +7,7 @@ export default function MarketingLayout({
 }) {
   return (
     <div className="flex flex-col h-screen">
-      <Navbar />
+
       {children}
     </div>
   );
